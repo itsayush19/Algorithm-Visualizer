@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlgoViz</title>
+    
+    <link rel="stylesheet" href="/style/styles.css">
+</head>
+<header>
+    <h1 align="center">Sorting Visualizer</h1>
+</header>
+<body>
+    <div class="sidenav">
+        <button type="button" id="nArr">New Array</button>
+        <span id="size_inp">Size
+            <input id="size" type="range" min="5" max="100" step=1 value=60>
+        </span>
+        <span id="speed_inp">Speed
+            <input id="speed" type="range" min="20" max="300" stepDown=10 value=60>
+        </span>
+        <button type="button" id="bubble">Bubble Sort</button>
+        <button type="button" id="selection">Selection Sort</button>
+        <button type="button" id="insertion">Insertion Sort</button>
+        <button type="button" id="quick">Quick Sort</button>
+        <button type="button" id="merge">Merge Sort</button>
+        <button type="button" id="kadane">kadane's Algo</button>
+    </div>
+    <div id="bars" class="flex-container"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.6.0/qs.min.js"></script>
+    <script src="js/vizualizer.js"></script>
+    <script src="js/bubble.js"></script>
+    <script src="js/selection.js"></script>
+    <script src="js/merge.js"></script>
+    <script src="js/quick.js"></script>
+    <script src="js/insertion.js"></script>
+    <script src="js/selection.js"></script>
+</body>
+</html>

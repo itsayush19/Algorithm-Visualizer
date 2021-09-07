@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 0 20px 30px 0;
+    line-height: 1.4;
+}
+header{
+    margin-left: 235px;
+}
+span{
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.suggestions{
+    height: 60px;
+    margin-left: 5px;
+    width: 200px;
+    border: 1px solid rgb(26, 171, 197);
+    flex-grow: 1;
+}
+
+.sidenav {
+    height: 100%;
+    width: 235px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(57, 79, 82); 
+    overflow-x: hidden; 
+    padding-top: 20px;
+    overflow-y: scroll;
+  }
+.flex-container{
+    margin-top: 20px;
+    margin-left: 235px; 
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    width: auto;
+    height: 500px;
+    justify-content: center;
+    transition: 2s all ease;
+}
+
+.flex-item{
+    background: rgb(26, 171, 197);
+    border: 1pt solid black;
+    width: 10px;
+    transition: 0.1s all ease;
+}
+
+
+#input{
+    padding: 10px;
+    justify-content: space-around;
+    overflow-y: scroll;
+    overflow-x: inherit;
+}
+
+
+
+button {
+    display: flex;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px;
+    background: rgb(26, 171, 197);
+    border: none;
+
+    font-size: inherit;
+    transition: 0.0s ease;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    justify-content: end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    size: inherit;
+  }
+  
+  button:hover {
+    background: #057c8b;
+  }
+  
+  button:disabled {
+    cursor: default;
+    background: #5cb3bf94;
+  }
